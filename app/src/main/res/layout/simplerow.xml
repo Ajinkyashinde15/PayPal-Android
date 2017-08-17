@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#4A96AD">
+
+    <TextView
+            android:id="@+id/txtnamel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Name"
+            android:layout_y="2dp"
+            android:gravity="center"
+            android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+</AbsoluteLayout>

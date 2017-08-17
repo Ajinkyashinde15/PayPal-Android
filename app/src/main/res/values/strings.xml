@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ParksTennis</string>
+    <string name="title_activity_find_venue">Map</string>
+    <string name="register">Register</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="find_venue">Find Venue</string>
+</resources>

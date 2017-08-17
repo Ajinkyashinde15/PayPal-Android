@@ -1,0 +1,98 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/linearlayout"
+    android:weightSum="1"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#b50000"
+        android:layout_margin="15dp"/>
+
+    <AutoCompleteTextView android:id="@+id/txtName" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Name"
+        android:inputType="textEmailAddress" android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#1d1c1c"
+        android:textColorHint="#1d1c1c"
+        android:layout_margin="15dp"/>
+
+    <AutoCompleteTextView android:id="@+id/txtAge" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Age"
+        android:inputType="textEmailAddress" android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#1d1c1c"
+        android:textColorHint="#1d1c1c"
+        android:layout_margin="12dp"/>
+
+    <AutoCompleteTextView android:id="@+id/txtAddress" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Address"
+        android:inputType="textEmailAddress" android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#1d1c1c"
+        android:textColorHint="#1d1c1c"
+        android:layout_margin="12dp"/>
+
+    <AutoCompleteTextView android:id="@+id/txtDate" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Date"
+        android:inputType="textEmailAddress" android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#1d1c1c"
+        android:textColorHint="#1d1c1c"
+        android:layout_margin="12dp"/>
+
+    <AutoCompleteTextView android:id="@+id/txtPhone" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Phone"
+        android:inputType="textEmailAddress" android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#1d1c1c"
+        android:textColorHint="#1d1c1c"
+        android:layout_margin="12dp"/>
+
+    <AutoCompleteTextView android:id="@+id/txtEmail" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Email"
+        android:inputType="textEmailAddress" android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#1d1c1c"
+        android:textColorHint="#1d1c1c"
+        android:layout_margin="12dp"/>
+
+    <AutoCompleteTextView android:id="@+id/txtMedCond" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Medical Condition"
+        android:inputType="textEmailAddress" android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#1d1c1c"
+        android:textColorHint="#1d1c1c"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/pay"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#da5a63"
+        android:onClick="pay"
+        android:text="Pay 10$"
+        android:layout_margin="12dp"
+        android:textColor="#1d1c1c"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
